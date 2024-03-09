@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <link rel="stylesheet" href="/popup.css">
+	    <script src="/popup.js" type="module"></script>
+	</head>
+	<body>
+		<div class="btn_block">
+		    <button id="update" class="btn">Обновить Refresh Token</button>
+		    <a class="display-none" href="https://seller.wildberries.ru/" target="_blank" id="wb-href">
+		        Открыть Wildberries Seller
+		    </a>
+	    </div>
+	
+		<div class="wrapper" id="table-wrapper">
+			
+			<div class="cookie_block">
+				<div class="title">
+					&#8595; x-supplier-id, expire: <span id="x-supplier-id-expire"></span>
+				</div>
+				<div class="main_part" style="display: none;">
+					<div class="value_block">
+						<a href="#" class="copy">копировать</a>
+						<textarea id="x-supplier-id"></textarea>
+					</div>
+				</div>
+			</div>
+			
+			<div class="cookie_block">
+				<div class="title">
+					&#8595; WBTokenV3, expire: <span id="WBTokenV3-expire"></span>
+				</div>
+				<div class="main_part" style="display: none;">
+					<div class="value_block">
+						<a href="#" class="copy">копировать</a>
+						<textarea id="WBTokenV3"></textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="cookie_block">
+				<div class="title">
+					&#8595; wbx-validation-key, expire: <span id="wbx-validation-key-expire"></span>
+				</div>
+				<div class="main_part" style="display: none;">
+					<div class="value_block">
+						<a href="#" class="copy">копировать</a>
+						<textarea id="wbx-validation-key"></textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="cookie_block">
+				<div class="title">
+					&#8595; wbx-refresh, expire: <span id="wbx-refresh-expire"></span>
+				</div>
+				<div class="main_part" style="display: none;">
+					<div class="value_block">
+						<a href="#" class="copy">копировать</a>
+						<textarea id="wbx-refresh"></textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="cookie_block">
+				<div class="title">
+					&#8595; wbx-seller-device-id, expire: <span id="wbx-seller-device-id-expire"></span>
+				</div>
+				<div class="main_part" style="display: none;">
+					<div class="value_block">
+						<a href="#" class="copy">копировать</a>
+						<textarea id="wbx-seller-device-id"></textarea>
+					</div>
+				</div>
+			</div>
+			
+			<div style="height:25px">&#160;</div>
+
+		</div>
+	</body>
+</html>
